@@ -7,7 +7,7 @@ This allows your computer to access github without repeatedly typing your passwo
 	cd .ssh
 get public key from this directory, use this to authorise github to access your computer:
 	cat id_rsa.pub
-### Setting your Username & Password for connecting to Github
+### Setting your Username & Email Address for connecting to Github
 	git config --global user.email "example@email.com"
 	git config --global user.name "usernamehere"
 
