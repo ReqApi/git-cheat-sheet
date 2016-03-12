@@ -8,7 +8,8 @@ This allows your computer to access github without repeatedly typing your passwo
 get public key from this directory, use this to authorise github to access your computer:
 	cat id_rsa.pub
 ### Setting your Username & Password for connecting to Github
-_to be added_
+	git config --global user.email "example@email.com"
+	git config --global user.name "usernamehere"
 
 ## Creating a Repository
 	git init # initialise a repository
