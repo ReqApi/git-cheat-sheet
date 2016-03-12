@@ -7,7 +7,7 @@ ssh-keygen -t rsa -b 4096
 cd .ssh
 get public key from this directory, use this to authorise github to access your computer
 ### Setting your Username & Password for connecting to Github
-**to be added**
+_to be added_
 
 ## Creating a Repository
 git init # initialise a repository
