@@ -26,3 +26,4 @@ git diff FILEPATH # see changes since last commit
 git submodule add URL
 git submodule update # pull the submodules in the repo, needed for updating submodules, & for when repo is cloned to another computer
 
+git checkout # Grabs the latest version of a file from the repository and adds it to local copy, overwriting existing
