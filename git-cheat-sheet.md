@@ -3,10 +3,14 @@
 ## Setup
 ### Creating an SSH Key
 This allows your computer to access github without repeatedly typing your password.
+
 	ssh-keygen -t rsa -b 4096
 	cd .ssh
+	
 get public key from this directory, use this to authorise github to access your computer:
+
 	cat id_rsa.pub
+	
 ### Setting your Username & Email Address for connecting to Github
 	git config --global user.email "example@email.com"
 	git config --global user.name "usernamehere"
